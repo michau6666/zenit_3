@@ -1,25 +1,25 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31313.79
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zenit_3", "zenit_3\zenit_3.csproj", "{EC01F3D9-1CEE-412D-B22C-1C89A561DBE7}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EC01F3D9-1CEE-412D-B22C-1C89A561DBE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EC01F3D9-1CEE-412D-B22C-1C89A561DBE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EC01F3D9-1CEE-412D-B22C-1C89A561DBE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EC01F3D9-1CEE-412D-B22C-1C89A561DBE7}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2EE8D644-728E-4FBB-BA92-631E9DB8AE4D}
-	EndGlobalSection
-EndGlobal
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace zenit_3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           
+            string had = Console.ReadLine();
+            for (int j = 0; j < had.Length-1; j++); {
+                if (had[0] == '<' || had[0] == '>' || had[had.Length-1] == '<' || had[had.Length - 1] == '>') 
+                Console.WriteLine("had");
+            else
+                {
+                    Console.WriteLine("dazdovka");
+                }
+            }
+        }
+    }
+}
